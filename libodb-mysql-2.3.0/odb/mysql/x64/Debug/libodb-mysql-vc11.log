@@ -1,0 +1,50 @@
+﻿生成启动时间为 2014/10/15 11:49:59。
+     1>项目“E:\source\libodb\libodb-mysql-2.3.0\odb\mysql\libodb-mysql-vc11.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.5\include" /I"E:\source\libodb\libodb-2.3.0" /I..\.. /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBODB_MYSQL_DYNAMIC_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4355 /wd4800 /wd4290 /wd4251 /wd4267 /errorReport:prompt connection.cxx "connection-factory.cxx" database.cxx enum.cxx error.cxx exceptions.cxx "prepared-query.cxx" query.cxx "query-dynamic.cxx" "query-const-expr.cxx" "simple-object-statements.cxx" statement.cxx "statements-base.cxx" tracer.cxx traits.cxx transaction.cxx "transaction-impl.cxx"
+         transaction-impl.cxx
+         transaction.cxx
+         traits.cxx
+         tracer.cxx
+         statements-base.cxx
+         statement.cxx
+         simple-object-statements.cxx
+         query-const-expr.cxx
+         query-dynamic.cxx
+         query.cxx
+         prepared-query.cxx
+         exceptions.cxx
+         error.cxx
+         enum.cxx
+         database.cxx
+         connection-factory.cxx
+         connection.cxx
+         正在生成代码...
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.5\include" /I"E:\source\libodb\libodb-2.3.0" /I..\.. /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBODB_MYSQL_DYNAMIC_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\details\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4355 /wd4800 /wd4290 /wd4251 /wd4267 /errorReport:prompt details\options.cxx
+         options.cxx
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\source\libodb\libodb-mysql-2.3.0\odb\mysql\..\..\bin64\odb-mysql-d-2.3-vc11.dll" /INCREMENTAL /NOLOGO /LIBPATH:"..\..\..\libodb-2.3.0\lib64" /LIBPATH:"C:\Program Files\MySQL\MySQL Server 5.5\lib" "odb-d.lib" libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin64\odb-mysql-d-2.3-vc11.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib64\odb-mysql-d.lib" /MACHINE:X64 /DLL x64\Debug\connection.obj
+         "x64\Debug\connection-factory.obj"
+         x64\Debug\database.obj
+         x64\Debug\enum.obj
+         x64\Debug\error.obj
+         x64\Debug\exceptions.obj
+         "x64\Debug\prepared-query.obj"
+         x64\Debug\query.obj
+         "x64\Debug\query-dynamic.obj"
+         "x64\Debug\query-const-expr.obj"
+         "x64\Debug\simple-object-statements.obj"
+         x64\Debug\statement.obj
+         "x64\Debug\statements-base.obj"
+         x64\Debug\tracer.obj
+         x64\Debug\traits.obj
+         x64\Debug\transaction.obj
+         "x64\Debug\transaction-impl.obj"
+         x64\Debug\\details\options.obj
+            正在创建库 ..\..\lib64\odb-mysql-d.lib 和对象 ..\..\lib64\odb-mysql-d.exp
+         libodb-mysql-vc11.vcxproj -> E:\source\libodb\libodb-mysql-2.3.0\odb\mysql\..\..\bin64\odb-mysql-d-2.3-vc11.dll
+     1>已完成生成项目“E:\source\libodb\libodb-mysql-2.3.0\odb\mysql\libodb-mysql-vc11.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.60
